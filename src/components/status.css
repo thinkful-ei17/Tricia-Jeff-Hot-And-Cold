@@ -9,7 +9,7 @@
     }
 }
 
-#feedback {
+h2 {
     margin: 0 auto;
     background: #cc324b;
     padding: 1em 0.4em;
@@ -20,6 +20,6 @@
     color: #fff;
 }
 
-#feedback:target {
+h2:target {
     animation: feedback-highlight 3s;
 }

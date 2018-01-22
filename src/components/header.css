@@ -1,6 +1,32 @@
 h1 {
+    display: block;
     font-weight: 900;
     font-size: 3em;
-    padding: 0.8em;
+    padding: 0.4em;
     color: #fff;
+    margin: 0;
+}
+
+nav {
+    padding: 1em;
+}
+
+nav ul li {
+    text-transform: uppercase;
+}
+
+.what,
+.new {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.what {
+    float: left;
+}
+
+.new {
+    float: right;
 }

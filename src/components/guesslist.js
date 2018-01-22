@@ -3,7 +3,7 @@ import React from 'react';
 // import './guesslist.css';
 
 // import Guess from './guess';
-
+import './guesslist.css';
 export default function GuessList(props) {
 
 const guesses = [
