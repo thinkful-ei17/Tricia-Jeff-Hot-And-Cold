@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import GuessList from './components/guesslist';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<GuessList />, document.getElementById('root'));
 registerServiceWorker();
-
 
 //Mapping out Components
 
