@@ -22,11 +22,11 @@ const guessListResults = guesses.map((guess) => (
 ));
 
   return (
-    <div>
-      <ul>
+
+      <ul className='guessBox'>
         {guessListResults}
       </ul>
-    </div>
+
   );
 }
 
